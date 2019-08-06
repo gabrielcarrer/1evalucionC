@@ -1,0 +1,52 @@
+.navegacion{
+  text-align:right;
+  padding-top:10px;
+}
+.navegacion-link{
+  margin-left:20px;
+}
+.acerca-de{
+  padding-top:80px;
+  padding-bottom:80px;
+  text-align:center;
+}
+
+.portafolio{
+  padding-bottom:80px;
+}
+
+.portafolio-image{
+  margin-bottom:40px;
+}
+.portafolio-link{
+  text-transform:uppercase;
+  letter-spacing: 4px;
+}
+
+.proyecto-destacado{
+  background:#79be;
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero-image{
+  background:url('http://i63.tinypic.com/ipmec8.jpg') center/cover ;
+}
+
+.hero-image-content{
+  opacity:0;
+  height: 100vh;
+  background:rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  padding-top:200px;
+  padding-bottom:80px;
+  padding-left:80px;
+  padding-right:80px;
+  transition: all .5s;
+
+}
+.visible{
+  opacity: 1;
+}
